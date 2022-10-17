@@ -1,0 +1,31 @@
+.task_container{
+  margin: 1em 0;
+  display: flex;
+  border-radius: .5em 0 0 .5em ;
+  cursor: pointer;
+}
+
+.task_text{
+  width: 85%;
+  padding: 1em 0 1em .6em;
+  outline: none;
+  border-radius: .3em;
+  font-size: .75em;
+  border: none;
+  overflow-wrap: anywhere;
+}
+.task_icon_content{
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.iconTask{
+  fill: #fff;
+  font-size: 1.2rem;
+}
+
+.completed{
+  background: #5a01a7;
+  text-decoration: line-through;
+}

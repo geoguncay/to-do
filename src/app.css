@@ -1,0 +1,31 @@
+.app_to_do {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title_container{
+  margin: 2rem 0;
+  height: 3rem;
+  border-radius: 5em;
+}
+.title_container h1{
+  /* background: #202220; */
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.to_do_body {
+  color: #000;
+  padding: 1.2rem 1.2rem;
+  width: 100%;
+  background: #d0d0d5;
+  min-height: 40em;
+  width: 22rem;
+  border-radius: 1rem;
+}
+.to_do_body h2{
+  border-radius: .2rem;
+  padding: .5rem;
+}
+

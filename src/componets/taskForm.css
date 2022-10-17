@@ -1,0 +1,30 @@
+.form_task{
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: .3em;
+  justify-content: space-between;
+}
+.input_task{
+  width: 70%;
+  background: #fff;
+  padding: 1em 0 1em .6em;
+  outline: none;
+  border-radius: .3em;
+  font-size: .75em;
+  border: none;
+  color: #000;
+  border: solid #000 2px;
+  border-radius: .3em;
+}
+
+.btn_task{
+  width: 25%;
+  padding: 1em;
+  font-size: .75em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
